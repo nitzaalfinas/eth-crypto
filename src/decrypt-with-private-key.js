@@ -8,6 +8,8 @@ import {
     removeLeading0x
 } from './util';
 
+var Buffer = require('buffer/').Buffer;
+
 export default function decryptWithPrivateKey(privateKey, encrypted) {
 
     encrypted = parse(encrypted);

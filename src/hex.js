@@ -9,6 +9,8 @@ import {
     addLeading0x
 } from './util';
 
+var Buffer = require('buffer/').Buffer;
+
 export function compress(hex, base64 = false) {
     hex = removeLeading0x(hex);
 

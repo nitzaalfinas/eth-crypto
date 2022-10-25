@@ -12,6 +12,8 @@ import {
     addLeading0x
 } from './util';
 
+var Buffer = require('buffer/').Buffer;
+
 export function compress(startsWith04) {
 
     // add trailing 04 if not done before

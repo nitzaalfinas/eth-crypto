@@ -5,6 +5,8 @@ import {
     decompress
 } from './public-key';
 
+var Buffer = require('buffer/').Buffer;
+
 export default function encryptWithPublicKey(publicKey, message, opts) {
 
     // ensure its an uncompressed publicKey

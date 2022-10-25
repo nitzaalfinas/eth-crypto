@@ -3,6 +3,8 @@ import {
     decompress
 } from './public-key';
 
+var Buffer = require('buffer/').Buffer;
+
 export function stringify(cipher) {
     if (typeof cipher === 'string') return cipher;
 

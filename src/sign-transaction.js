@@ -5,6 +5,8 @@ import {
     toAddress as addressByPublicKey
 } from './public-key';
 
+var Buffer = require('buffer/').Buffer;
+
 export default function signTransaction(
     rawTx,
     privateKey,

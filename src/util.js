@@ -1,3 +1,5 @@
+var Buffer = require('buffer/').Buffer;
+
 export function removeLeading0x(str) {
     if (str.startsWith('0x'))
         return str.substring(2);

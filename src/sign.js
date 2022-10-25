@@ -6,6 +6,8 @@ import {
     removeLeading0x
 } from './util';
 
+var Buffer = require('buffer/').Buffer;
+
 /**
  * signs the given message
  * we do not use sign from eth-lib because the pure secp256k1-version is 90% faster

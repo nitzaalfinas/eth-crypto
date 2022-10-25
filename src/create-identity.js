@@ -1,6 +1,8 @@
 import { utils as ethersUtils, Wallet } from 'ethers';
 import { stripHexPrefix } from 'ethereumjs-util';
 
+var Buffer = require('buffer/').Buffer
+
 const MIN_ENTROPY_SIZE = 128;
 const { keccak256 } = ethersUtils;
 

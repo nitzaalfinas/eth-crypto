@@ -97,6 +97,7 @@
     "@babel/runtime": "7.19.4",
     "@ethereumjs/tx": "3.5.2",
     "@types/bn.js": "5.1.1",
+    "buffer": "^6.0.3",
     "eccrypto": "1.1.6",
     "ethereumjs-util": "7.1.5",
     "ethers": "5.7.2",
